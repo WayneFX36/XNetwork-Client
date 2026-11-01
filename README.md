@@ -24,7 +24,21 @@
 <br>
 
 <div align="center">
-<img src="assets/screen-main.svg" alt="Главный экран XNetwork" width="88%">
+<img src="assets/screen-main.png" alt="Главный экран XNetwork" width="88%">
+<br>
+<sub><b>Главный экран</b> · подписка, серверы и подключение в один клик</sub>
+<br><br>
+<img src="assets/screen-connections.png" alt="Подключения" width="88%">
+<br>
+<sub><b>Подключения</b> · каждая программа и её соединения в реальном времени</sub>
+<br><br>
+<img src="assets/screen-rules.png" alt="Мои правила" width="88%">
+<br>
+<sub><b>Мои правила</b> · сайты, подсети и программы: напрямую или через VPN</sub>
+<br><br>
+<img src="assets/screen-apps.png" alt="Раздельный туннель" width="88%">
+<br>
+<sub><b>Приложения</b> · раздельный туннель для выбранных программ</sub>
 </div>
 
 <br>
@@ -56,20 +70,6 @@
 
 <br>
 
-## Скриншоты
-
-<table>
-  <tr>
-    <td width="33%"><img src="assets/screen-servers.svg" alt="Серверы"></td>
-    <td width="33%"><img src="assets/screen-connections.svg" alt="Подключения"></td>
-    <td width="33%"><img src="assets/screen-settings.svg" alt="Настройки"></td>
-  </tr>
-  <tr>
-    <td align="center"><sub><b>Серверы</b> · пинг и выбор</sub></td>
-    <td align="center"><sub><b>Подключения</b> · соединения и правила</sub></td>
-    <td align="center"><sub><b>Настройки</b> · режимы, прокси, ядро</sub></td>
-  </tr>
-</table>
 
 ## Установка
 
