@@ -1,10 +1,14 @@
 <div align="center">
 
+<sub><b>Русский</b> · <a href="README.en.md">English</a></sub>
+
+<br><br>
+
 <img src="assets/banner.svg" alt="XNetwork — клиент на Xray-core для Windows" width="100%">
 
 <br><br>
 
-<a href="https://github.com/WayneFX36/XNetwork-Client/releases/latest"><img src="https://img.shields.io/badge/версия-0.15.1-2dd4bf?style=for-the-badge&labelColor=0b1a17" alt="Версия"></a>
+<a href="https://github.com/WayneFX36/XNetwork-Client/releases/latest"><img src="https://img.shields.io/badge/версия-0.16.6-2dd4bf?style=for-the-badge&labelColor=0b1a17" alt="Версия"></a>
 <img src="https://img.shields.io/badge/Windows-10%20·%2011-2dd4bf?style=for-the-badge&logo=windows&logoColor=99f6e4&labelColor=0b1a17" alt="Windows 10 и 11">
 <img src="https://img.shields.io/badge/ядро-Xray--core-2dd4bf?style=for-the-badge&labelColor=0b1a17" alt="Xray-core">
 <br><br>
@@ -74,7 +78,7 @@
 ## Установка
 
 > [!NOTE]
-> Нужна Windows 10 или 11, 64-бит. WebView2 уже есть в системе, ставить ничего не надо.
+> Нужна 64-битная Windows 10 или 11 с WebView2. В Windows 11 он уже есть, как и на большинстве ПК с Windows 10. Если его нет, [скачайте у Microsoft](https://developer.microsoft.com/microsoft-edge/webview2/).
 
 **1. Скачайте** `XNetwork_x.y.z_x64-setup.exe` со страницы [последнего релиза](https://github.com/WayneFX36/XNetwork-Client/releases/latest).
 
@@ -101,13 +105,14 @@ XNetwork хранит ключи серверов и подписки, поэт�
 - **Обновления** принимаются, только если установщик подписан ключом, встроенным в приложение, и именно для заявленной версии. Откатить вас на старую версию подменой манифеста нельзя.
 - **Служба** выполняет только то, что требует прав администратора, и перед запуском проверяет, что её файлы никто, кроме администраторов, не может изменить.
 - **Локальный прокси** слушает только `127.0.0.1`. Доступ из локальной сети включается отдельно, работает только в частной сети и всегда по паролю.
+
 ## Вопросы
 
 <details>
 <summary><b>Windows SmartScreen пишет «Windows защитила ваш компьютер»</b></summary>
 <br>
 
-Так бывает с новыми программами, у которых ещё мало установок. Нажмите «Подробнее», затем «Выполнить в любом случае». Скачивайте установщик только со страницы релизов этого репозитория.
+У установщика пока нет сертификата подписи кода Windows, поэтому SmartScreen о нём предупреждает. Нажмите «Подробнее», затем «Выполнить в любом случае». Скачивайте установщик только со страницы релизов этого репозитория.
 
 </details>
 

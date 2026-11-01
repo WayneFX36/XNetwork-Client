@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d201c"/>
+      <stop offset="1" stop-color="#091512"/>
+    </linearGradient>
+    <g id="box">
+      <rect width="400" height="170" rx="18" fill="url(#card)"/>
+      <rect x=".5" y=".5" width="399" height="169" rx="17.5" fill="none" stroke="#99f6e4" stroke-opacity=".13"/>
+    </g>
+  </defs>
+  <g font-family="'Segoe UI', 'Inter', Arial, sans-serif">
+
+    <!-- 1 subscriptions -->
+    <g transform="translate(20 20)">
+      <use href="#box"/>
+      <g transform="translate(28 28)">
+        <rect width="44" height="44" rx="12" fill="#2dd4bf" fill-opacity=".12"/>
+        <g fill="none" stroke="#5eead4" stroke-width="2.4" stroke-linecap="round">
+          <rect x="7" y="16" width="17" height="12" rx="6"/>
+          <rect x="20" y="16" width="17" height="12" rx="6"/>
+        </g>
+      </g>
+      <text x="28" y="108" font-size="21" font-weight="700" fill="#e7f6f1">One-click subscriptions</text>
+      <text x="28" y="134" font-size="15" fill="#8ca8a0">Link, clipboard, QR from the screen</text>
+      <text x="28" y="156" font-size="15" fill="#8ca8a0">or an xnetwork:// link from a bot</text>
+    </g>
+
+    <!-- 2 modes -->
+    <g transform="translate(440 20)">
+      <use href="#box"/>
+      <g transform="translate(28 28)">
+        <rect width="44" height="44" rx="12" fill="#2dd4bf" fill-opacity=".12"/>
+        <rect x="6" y="14" width="32" height="16" rx="8" fill="none" stroke="#5eead4" stroke-width="2.4"/>
+        <circle cx="30" cy="22" r="4.5" fill="#5eead4"/>
+      </g>
+      <text x="28" y="108" font-size="21" font-weight="700" fill="#e7f6f1">Proxy and TUN</text>
+      <text x="28" y="134" font-size="15" fill="#8ca8a0">System proxy, no admin rights needed</text>
+      <text x="28" y="156" font-size="15" fill="#8ca8a0">or all Windows traffic through TUN</text>
+    </g>
+
+    <!-- 3 kill switch -->
+    <g transform="translate(860 20)">
+      <use href="#box"/>
+      <g transform="translate(28 28)">
+        <rect width="44" height="44" rx="12" fill="#fbbf24" fill-opacity=".12"/>
+        <g fill="none" stroke="#fcd34d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 7 L34 11.5 V21 C34 29 28.5 34 22 37 C15.5 34 10 29 10 21 V11.5 Z"/>
+          <path d="M17 22 L21 26 L28 18"/>
+        </g>
+      </g>
+      <text x="28" y="108" font-size="21" font-weight="700" fill="#e7f6f1">Kill switch</text>
+      <text x="28" y="134" font-size="15" fill="#8ca8a0">WFP filters: if the VPN drops, traffic</text>
+      <text x="28" y="156" font-size="15" fill="#8ca8a0">can't slip past the tunnel</text>
+    </g>
+
+    <!-- 4 rules -->
+    <g transform="translate(20 210)">
+      <use href="#box"/>
+      <g transform="translate(28 28)">
+        <rect width="44" height="44" rx="12" fill="#2dd4bf" fill-opacity=".12"/>
+        <g fill="none" stroke="#5eead4" stroke-width="2.4" stroke-linecap="round">
+          <path d="M11 32 C 22 32, 22 12, 33 12"/>
+          <path d="M11 32 H33"/>
+        </g>
+        <g fill="#5eead4"><circle cx="10" cy="32" r="3.5"/><circle cx="34" cy="12" r="3.5"/><circle cx="34" cy="32" r="3.5"/></g>
+      </g>
+      <text x="28" y="108" font-size="21" font-weight="700" fill="#e7f6f1">Routes and your own rules</text>
+      <text x="28" y="134" font-size="15" fill="#8ca8a0">Routes come with the subscription,</text>
+      <text x="28" y="156" font-size="15" fill="#8ca8a0">your rules apply on the fly</text>
+    </g>
+
+    <!-- 5 updates -->
+    <g transform="translate(440 210)">
+      <use href="#box"/>
+      <g transform="translate(28 28)">
+        <rect width="44" height="44" rx="12" fill="#2dd4bf" fill-opacity=".12"/>
+        <g fill="none" stroke="#5eead4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="22" cy="19" r="11"/>
+          <path d="M17 19 L21 23 L27 16"/>
+          <path d="M16 29 L13.5 38 L18 36 L20 39"/>
+          <path d="M28 29 L30.5 38 L26 36 L24 39"/>
+        </g>
+      </g>
+      <text x="28" y="108" font-size="21" font-weight="700" fill="#e7f6f1">Signed updates</text>
+      <text x="28" y="134" font-size="15" fill="#8ca8a0">Every installer is checked against</text>
+      <text x="28" y="156" font-size="15" fill="#8ca8a0">a key built into the app</text>
+    </g>
+
+    <!-- 6 data -->
+    <g transform="translate(860 210)">
+      <use href="#box"/>
+      <g transform="translate(28 28)">
+        <rect width="44" height="44" rx="12" fill="#2dd4bf" fill-opacity=".12"/>
+        <g fill="none" stroke="#5eead4" stroke-width="2.4" stroke-linecap="round">
+          <rect x="11" y="20" width="22" height="16" rx="4"/>
+          <path d="M15.5 20 V15.5 A6.5 6.5 0 0 1 28.5 15.5 V20"/>
+        </g>
+        <circle cx="22" cy="28" r="2.4" fill="#5eead4"/>
+      </g>
+      <text x="28" y="108" font-size="21" font-weight="700" fill="#e7f6f1">Your data stays locked</text>
+      <text x="28" y="134" font-size="15" fill="#8ca8a0">Subscriptions and keys use DPAPI,</text>
+      <text x="28" y="156" font-size="15" fill="#8ca8a0">no sites or addresses in the logs</text>
+    </g>
+  </g>
+</svg>
