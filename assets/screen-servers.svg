@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" rx="14" fill="#06100e"/>
+  <rect x=".5" y=".5" width="799" height="499" rx="13.5" fill="none" stroke="#99f6e4" stroke-opacity=".16"/>
+  <rect x="1" y="1" width="798" height="36" rx="13" fill="#0b1a17"/>
+  <g fill="#57716a"><circle cx="740" cy="19" r="4"/><circle cx="760" cy="19" r="4"/><circle cx="780" cy="19" r="4"/></g>
+  <text x="18" y="24" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#8ca8a0">XNetwork</text>
+  <rect x="24" y="60" width="752" height="416" rx="12" fill="none" stroke="#2dd4bf" stroke-opacity=".35" stroke-dasharray="8 8"/>
+  <g font-family="'Segoe UI', Arial, sans-serif" text-anchor="middle">
+    <text x="400" y="254" font-size="28" font-weight="700" fill="#5eead4">Скриншот</text>
+    <text x="400" y="282" font-size="16" fill="#8ca8a0">серверы и пинг</text>
+  </g>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081815"/>
+      <stop offset="1" stop-color="#050c0b"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#99f6e4" stroke-opacity=".045"/>
+    </pattern>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#2dd4bf"/>
+    </marker>
+  </defs>
+  <style>
+    .flow { stroke-dasharray: 6 10; animation: flow 1.2s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset: -16; } }
+  </style>
+
+  <rect width="1280" height="300" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="300" rx="24" fill="url(#grid)"/>
+  <rect x=".5" y=".5" width="1279" height="299" rx="23.5" fill="none" stroke="#99f6e4" stroke-opacity=".13"/>
+
+  <g font-family="'Segoe UI', 'Inter', Arial, sans-serif">
+    <text x="40" y="52" font-size="14" font-weight="700" fill="#57716a" letter-spacing="3">КАК ЭТО РАБОТАЕТ</text>
+
+    <!-- links -->
+    <g fill="none" stroke="#2dd4bf" stroke-width="2" marker-end="url(#arr)">
+      <path class="flow" d="M262 168 H352"/>
+      <path class="flow" d="M612 168 H702"/>
+      <path class="flow" d="M942 168 H1032"/>
+    </g>
+
+    <!-- apps -->
+    <g transform="translate(40 100)">
+      <rect width="220" height="136" rx="16" fill="#0b1a17" stroke="#99f6e4" stroke-opacity=".14"/>
+      <text x="24" y="44" font-size="20" font-weight="700" fill="#e7f6f1">Приложения</text>
+      <text x="24" y="72" font-size="14" fill="#8ca8a0">браузер, мессенджеры,</text>
+      <text x="24" y="92" font-size="14" fill="#8ca8a0">игры, всё остальное</text>
+    </g>
+
+    <!-- client -->
+    <g transform="translate(360 84)">
+      <rect width="250" height="168" rx="16" fill="#0d221e" stroke="#2dd4bf" stroke-opacity=".5"/>
+      <text x="24" y="42" font-size="20" font-weight="700" fill="#e7f6f1">XNetwork</text>
+      <rect x="24" y="62" width="202" height="34" rx="10" fill="#2dd4bf" fill-opacity=".1"/>
+      <text x="38" y="84" font-size="14" fill="#99f6e4"><tspan font-weight="700">Прокси</tspan>  · системный прокси</text>
+      <rect x="24" y="104" width="202" height="34" rx="10" fill="#2dd4bf" fill-opacity=".1"/>
+      <text x="38" y="126" font-size="14" fill="#99f6e4"><tspan font-weight="700">TUN</tspan>  · весь трафик Windows</text>
+      <g transform="translate(150 -16)">
+        <rect width="104" height="28" rx="14" fill="#1a1607" stroke="#fbbf24" stroke-opacity=".55"/>
+        <text x="52" y="19" font-size="13" font-weight="700" fill="#fcd34d" text-anchor="middle">kill switch</text>
+      </g>
+    </g>
+
+    <!-- core -->
+    <g transform="translate(710 100)">
+      <rect width="230" height="136" rx="16" fill="#0b1a17" stroke="#99f6e4" stroke-opacity=".14"/>
+      <text x="24" y="44" font-size="20" font-weight="700" fill="#e7f6f1">Xray-core</text>
+      <text x="24" y="72" font-size="14" fill="#8ca8a0">VLESS · Reality · XHTTP</text>
+      <text x="24" y="92" font-size="14" fill="#8ca8a0">маршруты из подписки</text>
+    </g>
+
+    <!-- server -->
+    <g transform="translate(1040 100)">
+      <rect width="200" height="136" rx="16" fill="#0b1a17" stroke="#99f6e4" stroke-opacity=".14"/>
+      <circle cx="176" cy="26" r="5" fill="#2dd4bf"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
+      <text x="24" y="44" font-size="20" font-weight="700" fill="#e7f6f1">Сервер</text>
+      <text x="24" y="72" font-size="14" fill="#8ca8a0">из вашей подписки</text>
+      <text x="24" y="92" font-size="14" fill="#8ca8a0">→ интернет</text>
+    </g>
+  </g>
+</svg>
