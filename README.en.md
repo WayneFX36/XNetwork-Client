@@ -8,7 +8,7 @@
 
 <br><br>
 
-<a href="https://github.com/WayneFX36/XNetwork-Client/releases/latest"><img src="https://img.shields.io/badge/version-0.16.18-2dd4bf?style=for-the-badge&labelColor=0b1a17" alt="Version"></a>
+<a href="https://github.com/WayneFX36/XNetwork-Client/releases/latest"><img src="https://img.shields.io/badge/version-0.16.19-2dd4bf?style=for-the-badge&labelColor=0b1a17" alt="Version"></a>
 <img src="https://img.shields.io/badge/Windows-10%20·%2011-2dd4bf?style=for-the-badge&logo=windows&logoColor=99f6e4&labelColor=0b1a17" alt="Windows 10 and 11">
 <img src="https://img.shields.io/badge/core-Xray--core-2dd4bf?style=for-the-badge&labelColor=0b1a17" alt="Xray-core">
 <br><br>
