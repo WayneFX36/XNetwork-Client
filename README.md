@@ -8,12 +8,7 @@
 
 <br><br>
 
-<a href="https://github.com/WayneFX36/XNetwork-Client/releases/latest"><img src="https://img.shields.io/badge/версия-0.16.20-2dd4bf?style=for-the-badge&labelColor=0b1a17" alt="Версия"></a>
-<img src="https://img.shields.io/badge/Windows-10%20·%2011-2dd4bf?style=for-the-badge&logo=windows&logoColor=99f6e4&labelColor=0b1a17" alt="Windows 10 и 11">
-<img src="https://img.shields.io/badge/ядро-Xray--core-2dd4bf?style=for-the-badge&labelColor=0b1a17" alt="Xray-core">
-<br><br>
-
-<a href="https://github.com/WayneFX36/XNetwork-Client/releases/latest"><img src="assets/download.svg" alt="Скачать для Windows" height="68"></a>
+<a href="https://github.com/WayneFX36/XNetwork-Client/releases/latest"><img src="assets/download.svg" alt="Скачать для Windows — версия 0.16.20, Windows 10 и 11, x64" width="560"></a>
 
 <br>
 
