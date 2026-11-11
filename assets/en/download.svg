@@ -20,7 +20,7 @@
   </g>
   <g font-family="'Segoe UI','Inter',Arial,sans-serif">
     <text x="90" y="44" font-size="20" font-weight="700" fill="#e7f6f1">Download for Windows</text>
-    <text x="90" y="68" font-size="13" fill="#8ca8a0" font-family="'IBM Plex Mono','Cascadia Mono',Consolas,monospace">v0.16.21 · Windows 10 / 11 · x64</text>
+    <text x="90" y="68" font-size="13" fill="#8ca8a0" font-family="'IBM Plex Mono','Cascadia Mono',Consolas,monospace">v0.16.22 · Windows 10 / 11 · x64</text>
   </g>
   <g transform="translate(424 30)">
     <rect width="112" height="36" rx="18" fill="#2dd4bf" fill-opacity=".1" stroke="#2dd4bf" stroke-opacity=".5"/>
