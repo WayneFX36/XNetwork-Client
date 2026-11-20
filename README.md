@@ -8,7 +8,7 @@
 
 <br><br>
 
-<a href="https://github.com/WayneFX36/XNetwork-Client/releases/latest"><img src="assets/download.svg" alt="Скачать для Windows — версия 0.16.23, Windows 10 и 11, x64" width="560"></a>
+<a href="https://github.com/WayneFX36/XNetwork-Client/releases/latest"><img src="assets/download.svg" alt="Скачать для Windows — версия 0.16.24, Windows 10 и 11, x64" width="560"></a>
 
 <br>
 
